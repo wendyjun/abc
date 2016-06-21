@@ -6,9 +6,9 @@ from scrapy.selector import HtmlXPathSelector,Selector
 from dcn.items import DcnItem
 from scrapy.http import FormRequest,Request
 import json
-import requests
+
 from bs4 import BeautifulSoup
-#这只是一个注释
+
 
 class DcnPipeline(CrawlSpider):
     name = "dcn"
